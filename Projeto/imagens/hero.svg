@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300">
+<rect x="10" y="10" width="500" height="280" rx="14" fill="#14213D"/>
+<rect x="10" y="10" width="500" height="40" rx="14" fill="#1D2F55"/>
+<rect x="10" y="34" width="500" height="16" fill="#1D2F55"/>
+<circle cx="38" cy="30" r="6" fill="#F2A33A"/>
+<circle cx="58" cy="30" r="6" fill="#4C8DC9"/>
+<circle cx="78" cy="30" r="6" fill="#7FB77E"/>
+<text x="110" y="35" font-family="Courier New, monospace" font-size="13" fill="#9FB3CF">Main.java</text>
+<g font-family="Courier New, monospace" font-size="16" fill="#FFFFFF">
+<text x="36" y="90"><tspan fill="#F2A33A">public class</tspan> Main {</text>
+<text x="60" y="130"><tspan fill="#F2A33A">public static void</tspan> <tspan fill="#4C8DC9">main</tspan>(String[] args) {</text>
+<text x="84" y="170">System.out.<tspan fill="#4C8DC9">println</tspan>(<tspan fill="#7FB77E">"Olá, mundo!"</tspan>);</text>
+<text x="60" y="210">}</text>
+<text x="36" y="250">}</text>
+</g>
+</svg>
