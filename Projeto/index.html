@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Java: a linguagem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+  <a class="logo" href="#inicio"><i class='bx bxl-java'></i> Java</a>
+  <nav>
+    <ul class="menu">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">História</a></li>
+      <li><a href="#funcionamento">Como funciona</a></li>
+      <li><a href="#usos">Onde é usado</a></li>
+      <li><a href="#styleguide">Style Guide</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="secao claro" id="inicio">
+    <div class="texto">
+      <h1>Escreva uma vez, rode em qualquer lugar</h1>
+      <p>Esse era o lema do Java quando foi apresentado, em 1995. Quase 30 anos depois, continua entre as linguagens mais usadas do mundo.</p>
+      <a class="botao laranja" href="#funcionamento">Ver como funciona</a>
+      <a class="botao contorno" href="#sobre">Ler a história</a>
+    </div>
+    <img class="imagem" src="imagens/hero.svg" alt="Programa Olá, mundo escrito em Java">
+  </section>
+
+  <section class="secao" id="sobre">
+    <img class="imagem" src="imagens/sobre.svg" alt="Xícara de café, símbolo do Java">
+    <div class="texto">
+      <h2>De onde veio o Java</h2>
+      <p>O Java nasceu na Sun Microsystems, liderado por James Gosling. O projeto começou em 1991 com o nome Oak, pensado para aparelhos eletrônicos. O nome mudou para Java, inspirado no café, e a linguagem foi apresentada ao público em 1995.</p>
+      <p>Em 2010 a Sun foi comprada pela Oracle, que mantém o Java até hoje. O mascote da linguagem se chama Duke.</p>
+    </div>
+  </section>
+
+  <section class="secao claro coluna" id="funcionamento">
+    <h2>Como o Java funciona</h2>
+    <p>O código passa por duas etapas antes de rodar, e é isso que permite usar o mesmo programa em qualquer sistema.</p>
+    <div class="passos">
+      <div class="passo">
+        <h3>Main.java</h3>
+        <p>Você escreve o código-fonte.</p>
+      </div>
+      <i class='bx bx-right-arrow-alt'></i>
+      <div class="passo">
+        <h3>javac</h3>
+        <p>O compilador gera o arquivo Main.class, o bytecode.</p>
+      </div>
+      <i class='bx bx-right-arrow-alt'></i>
+      <div class="passo">
+        <h3>JVM</h3>
+        <p>A Máquina Virtual Java executa o bytecode.</p>
+      </div>
+    </div>
+    <pre class="terminal">javac Main.java
+java Main</pre>
+  </section>
+
+  <section class="secao coluna" id="usos">
+    <h2>Onde o Java é usado</h2>
+    <div class="cards">
+      <div class="card">
+        <i class='bx bx-server'></i>
+        <h3>Sistemas de empresas</h3>
+        <p>Bancos, seguradoras e grandes sistemas corporativos rodam em Java.</p>
+      </div>
+      <div class="card">
+        <i class='bx bx-leaf'></i>
+        <h3>APIs com Spring</h3>
+        <p>O Spring Boot é o framework mais usado para criar o back-end de aplicações.</p>
+      </div>
+      <div class="card">
+        <i class='bx bxl-android'></i>
+        <h3>Android</h3>
+        <p>Os apps Android nasceram em Java e hoje também usam Kotlin.</p>
+      </div>
+      <div class="card">
+        <i class='bx bx-cube'></i>
+        <h3>Jogos</h3>
+        <p>O Minecraft Java Edition é escrito na própria linguagem.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao claro coluna" id="styleguide">
+    <h2>Style Guide e Design System</h2>
+    <p>Os padrões usados para manter a página consistente.</p>
+    <div class="guia">
+      <div class="bloco">
+        <h3>Cores</h3>
+        <div class="cores">
+          <div class="cor"><div class="amostra azul-escuro"></div>#14213D</div>
+          <div class="cor"><div class="amostra azul"></div>#1F4E79</div>
+          <div class="cor"><div class="amostra laranja"></div>#F2A33A</div>
+          <div class="cor"><div class="amostra fundo"></div>#F4F8FC</div>
+        </div>
+      </div>
+      <div class="bloco">
+        <h3>Fontes</h3>
+        <p class="fonte-titulo">Sora: títulos</p>
+        <p>DM Sans: textos e botões</p>
+      </div>
+      <div class="bloco">
+        <h3>Botões</h3>
+        <a class="botao laranja" href="#styleguide">Principal</a>
+        <a class="botao contorno" href="#styleguide">Secundário</a>
+      </div>
+      <div class="bloco">
+        <h3>Ícones e formas</h3>
+        <p>Ícones do Boxicons, cantos arredondados de 12px e espaços em múltiplos de 8px.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao escuro coluna" id="contato">
+    <h2>Contato</h2>
+    <p>Projeto desenvolvido por Nicolas Hohl, estudante de Engenharia de Software na FIAP.</p>
+    <div class="links">
+      <a class="botao laranja" href="https://github.com/" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+      <a class="botao contorno-claro" href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i> LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <p>Checkpoint 3 · FIAP</p>
+</footer>
+
+</body>
+</html>
